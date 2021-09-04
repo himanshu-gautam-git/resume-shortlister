@@ -12,70 +12,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <!--cdn links ends-->
-    <style>
-        .btn {
-            background-color: #f58d1f;
-            color: #ffffff;
-        }
-
-        .hero {
-            background-image: url(./images/hero4.png);
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-
-        }
-
-        span {
-            font-weight: bold;
-            color: #f58d1f;
-        }
-
-        .nav-item:hover {
-            border-bottom: 2px solid #f58d1f;
-        }
-
-        .nav-item a {
-            font-size: 110%;
-        }
-
-        footer p {
-            color:black;
-        }
-        .row{
-            padding:6% 10% 6% 10%;
-            align-items: center;
-            justify-content: center;
-        }
-        li
-        {
-            list-style: none;
-            padding-bottom:4%;
-        }
-        .fa-chevron-circle-right
-        {
-            color: #f58d1f;
-        }
-        .pad
-        {
-            padding-bottom: 3%;
-        }
-        .card h4{
-          color: #f58d1f;
-        }
-        .card p
-        {
-            font-size: 14px;
-            color: gray;
-        }
-        .card
-        {
-           height:850px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
+    <!--nav bar starts-->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
             <img src="./images/logoh.png" alt="Cyber Group" height="60px">
@@ -86,12 +27,12 @@
         <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
             <div class="navbar-nav m-auto py-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#skill" class="nav-item nav-link">Products</a>
+                <a href="./about.html" class="nav-item nav-link">About</a>
+                <a href="./product.html" class="nav-item nav-link">Product</a>
                 <a href="#edu" class="nav-item nav-link">Services</a>
-                <a href="#" class="nav-item nav-link">Contact</a>
+                <a href="./contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="contact.html" class="btn btn-menu d-none d-lg-block" style="color: #ffffff;">Work with Us</a>
+            <a href="#" class="btn btn-menu d-none d-lg-block" style="color: #ffffff;">Work with Us</a>
         </div>
     </nav>
     <!--nav bar ends-->
@@ -119,10 +60,12 @@
             <ul class="arrow">
                 <h2 class="pad">Why Choose Us?</h2>
                 <li><i class="fa fa-chevron-circle-right"></i> 15+ Years of Successfully Delivering Web Solutions</li>
-                <li><i class="fa fa-chevron-circle-right"></i> 1000+ Projects Delivered On-Time, On-Spec, and On-Budget</li>
+                <li><i class="fa fa-chevron-circle-right"></i> 1000+ Projects Delivered On-Time, On-Spec, and On-Budget
+                </li>
                 <li><i class="fa fa-chevron-circle-right"></i> 300+ Global Clients in a Variety of Industries</li>
                 <li><i class="fa fa-chevron-circle-right"></i> Professional Services at a Very Competitive Price</li>
-                <li><i class="fa fa-chevron-circle-right"></i> Unparalleled Reputation of Delivering First-Class Support</li>
+                <li><i class="fa fa-chevron-circle-right"></i> Unparalleled Reputation of Delivering First-Class Support
+                </li>
             </ul>
             <p></p>
         </div>
@@ -145,7 +88,7 @@
             <div class="col text-center">
                 <h2 class="mb-3">Our Leadership</h2>
             </div>
-           
+
             <div class="col-12">
                 <div id="carousel" class="carousel slide" data-ride="carousel">
 
@@ -155,11 +98,18 @@
 
                                 <div class="col">
                                     <div class="card text-center">
-                                        <img class="img-fluid" alt="Saurajit Kanumgo" src="./images/saurajit-kanungo.jpg">
+                                        <img class="img-fluid" alt="Saurajit Kanumgo"
+                                            src="./images/saurajit-kanungo.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">SAURAJIT KANUNGO</h4><br/>
+                                            <h4 class="card-title">SAURAJIT KANUNGO</h4><br />
                                             <h4 class="card-title">PRESIDENT</h4>
-                                            <p class="card-text">Saurajit is passionate about helping customers realize consistent value from their investments in technology.  He has a strong background in conducting technology strategy, business systems planning, software/vendor selection, solution architecture, and project/program management. Saurajit has program managed large scale multi-year, multi-million dollar digital transformation initiatives. He has also spearheaded multiple long-term business systems roadmap efforts.</p>
+                                            <p class="card-text">Saurajit is passionate about helping customers realize
+                                                consistent value from their investments in technology. He has a strong
+                                                background in conducting technology strategy, business systems planning,
+                                                software/vendor selection, solution architecture, and project/program
+                                                management. Saurajit has program managed large scale multi-year,
+                                                multi-million dollar digital transformation initiatives. He has also
+                                                spearheaded multiple long-term business systems roadmap efforts.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -169,7 +119,13 @@
                                         <div class="card-body">
                                             <h4 class="card-title">BHOPI DHALL</h4>
                                             <h4 class="card-title">CEO</h4>
-                                            <p class="card-text">Bhopi founded Cyber Group in 1998 and is a well-respected expert in the technology industry. Working with over 30 years of experience, including his time at Texas Instruments, he led technology product engineering and gained insight into how the technology marketplace functioned. He started Cyber Group as an engineering firm providing technology solutions to companies throughout a wide spectrum of industries.</p>
+                                            <p class="card-text">Bhopi founded Cyber Group in 1998 and is a
+                                                well-respected expert in the technology industry. Working with over 30
+                                                years of experience, including his time at Texas Instruments, he led
+                                                technology product engineering and gained insight into how the
+                                                technology marketplace functioned. He started Cyber Group as an
+                                                engineering firm providing technology solutions to companies throughout
+                                                a wide spectrum of industries.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,7 +135,12 @@
                                         <div class="card-body">
                                             <h4 class="card-title">JULIANNE CHURCHES</h4>
                                             <h4 class="card-title">CFO & MANAGING DIRECTOR</h4>
-                                            <p class="card-text">As CFO and Managing Director, Julianne is responsible for the overall operations and financial management of the company. She directs all administrative, financial, human resources, compliance, and management functions. Her 25 years of experience and expertise in the industry and 13 years at Cyber Group enable her to work closely with all departments to optimize efficiency across the entire firm. </p>
+                                            <p class="card-text">As CFO and Managing Director, Julianne is responsible
+                                                for the overall operations and financial management of the company. She
+                                                directs all administrative, financial, human resources, compliance, and
+                                                management functions. Her 25 years of experience and expertise in the
+                                                industry and 13 years at Cyber Group enable her to work closely with all
+                                                departments to optimize efficiency across the entire firm. </p>
 
                                         </div>
                                     </div>
@@ -194,9 +155,14 @@
                                     <div class="card text-center">
                                         <img class="img-fluid" alt="ROB PALACIOS" src="./images/RobPalacios.png">
                                         <div class="card-body">
-                                            <h4 class="card-title">ROB PALACIOS</h4><br/>
+                                            <h4 class="card-title">ROB PALACIOS</h4><br />
                                             <h4 class="card-title">CINO & EXECUTIVE VICE PRESIDENT</h4>
-                                            <p class="card-text">Rob Palacios has a 30+ year history of helping businesses leverage technology to gain rapid market share and build sustainable competitive advantage.  Rob has done this both as an executive as well as a consultant with several reputable organizations such as the National Security Agency, Arthur Andersen, Hitachi, and Texas Capital Bank.</p>
+                                            <p class="card-text">Rob Palacios has a 30+ year history of helping
+                                                businesses leverage technology to gain rapid market share and build
+                                                sustainable competitive advantage. Rob has done this both as an
+                                                executive as well as a consultant with several reputable organizations
+                                                such as the National Security Agency, Arthur Andersen, Hitachi, and
+                                                Texas Capital Bank.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -204,9 +170,16 @@
                                     <div class="card text-center">
                                         <img class="img-fluid" alt="SANKALP SHASTRI" src="./images/sankalp-shastri.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">SANKALP SHASTRI</h4><br/>
+                                            <h4 class="card-title">SANKALP SHASTRI</h4><br />
                                             <h4 class="card-title">CTO & SENIOR VICE PRESIDENT</h4>
-                                            <p class="card-text">Sankalp has over 15 years of technology consulting experience focused on solving business problems by leveraging technology. Sankalp is responsible for over half a dozen strategic customers and a team of over 50 employees. “Once a developer, always a developer.” He is passionate about technology, application development and application management (development, modernization, and managed services). He has always been a believer of, “If you think it’s worth doing, do it right the first time".</p>
+                                            <p class="card-text">Sankalp has over 15 years of technology consulting
+                                                experience focused on solving business problems by leveraging
+                                                technology. Sankalp is responsible for over half a dozen strategic
+                                                customers and a team of over 50 employees. “Once a developer, always a
+                                                developer.” He is passionate about technology, application development
+                                                and application management (development, modernization, and managed
+                                                services). He has always been a believer of, “If you think it’s worth
+                                                doing, do it right the first time".</p>
                                         </div>
                                     </div>
                                 </div>
@@ -214,9 +187,16 @@
                                     <div class="card text-center">
                                         <img class="img-fluid" alt="ROBB FLINT" src="./images/robb-flint.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">ROBB FLINT</h4><br/>
+                                            <h4 class="card-title">ROBB FLINT</h4><br />
                                             <h4 class="card-title">SENIOR VICE PRESIDENT</h4>
-                                            <p class="card-text">Robb is an executive with over 20 years of leadership experience in management consulting, business development, strategic business planning, and large business sales. His entrepreneurial spirit and creativity helps customers problem-solve and find practical business solutions for big picture and day-to-day concerns. He has led multiple large-scale projects at Cyber Group involving application development, Salesforce implementations, ERP selection and data migration, data analytics, and production support.</p>
+                                            <p class="card-text">Robb is an executive with over 20 years of leadership
+                                                experience in management consulting, business development, strategic
+                                                business planning, and large business sales. His entrepreneurial spirit
+                                                and creativity helps customers problem-solve and find practical business
+                                                solutions for big picture and day-to-day concerns. He has led multiple
+                                                large-scale projects at Cyber Group involving application development,
+                                                Salesforce implementations, ERP selection and data migration, data
+                                                analytics, and production support.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,14 +205,21 @@
                         </div>
                         <div class="carousel-item">
                             <div class="row">
-
                                 <div class="col">
                                     <div class="card text-center">
-                                        <img class="img-fluid" alt="JONATHAN GOLDSTEIN" src="./images/jonathan-goldstein.jpg">
+                                        <img class="img-fluid" alt="JONATHAN GOLDSTEIN"
+                                            src="./images/jonathan-goldstein.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">JONATHAN GOLDSTEIN</h4><br/>
+                                            <h4 class="card-title">JONATHAN GOLDSTEIN</h4><br />
                                             <h4 class="card-title">SENIOR VICE PRESIDENT</h4>
-                                            <p class="card-text">Jonathan has over 20 years of experience as a PMP and CSM delivery executive.  He has focused his career on managing multiple business and technology transformation initiatives, building Project Management Offices, and leading organizational change through process optimization.  He offers a blend of technical and business knowledge that enables him to be an advisor on initiatives of varying sizes, budget levels, and business impact.  He blogs frequently about his lessons learned along his professional journey on his LinkedIn profile.</p>
+                                            <p class="card-text">Jonathan has over 20 years of experience as a PMP and
+                                                CSM delivery executive. He has focused his career on managing multiple
+                                                business and technology transformation initiatives, building Project
+                                                Management Offices, and leading organizational change through process
+                                                optimization. He offers a blend of technical and business knowledge that
+                                                enables him to be an advisor on initiatives of varying sizes, budget
+                                                levels, and business impact. He blogs frequently about his lessons
+                                                learned along his professional journey on his LinkedIn profile.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -240,9 +227,17 @@
                                     <div class="card text-center">
                                         <img class="img-fluid" alt="AZKAR CHOUDHRY" src="./images/Azkar.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">AZKAR CHOUDHRY</h4><br/>
+                                            <h4 class="card-title">AZKAR CHOUDHRY</h4><br />
                                             <h4 class="card-title">VICE PRESIDENT</h4>
-                                            <p class="card-text">A commercially astute technology executive with a record of directing and delivering “digital-enabled business transformation” initiatives, Azkar brings over 24 years of experience in building and directing diverse, multinational, top-performing teams; providing increased value to organizations by aligning IT and Operations with corporate culture and initiatives to achieve first-mover advantage in highly competitive markets.  He brings a wealth of experience in technology consulting and advisory as well as deep experience delivering a variety of services to retail energy firms. </p>
+                                            <p class="card-text">A commercially astute technology executive with a
+                                                record of directing and delivering “digital-enabled business
+                                                transformation” initiatives, Azkar brings over 24 years of experience in
+                                                building and directing diverse, multinational, top-performing teams;
+                                                providing increased value to organizations by aligning IT and Operations
+                                                with corporate culture and initiatives to achieve first-mover advantage
+                                                in highly competitive markets. He brings a wealth of experience in
+                                                technology consulting and advisory as well as deep experience delivering
+                                                a variety of services to retail energy firms. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -250,9 +245,246 @@
                                     <div class="card text-center">
                                         <img class="img-fluid" alt="ALLEN BAUMBACH" src="./images/Allen-Baumbach.jpg">
                                         <div class="card-body">
-                                            <h4 class="card-title">ALLEN BAUMBACH</h4><br/>
+                                            <h4 class="card-title">ALLEN BAUMBACH</h4><br />
                                             <h4 class="card-title">PRINCIPAL</h4>
-                                            <p class="card-text">Allen has over 25 years of experience in technology including software development, program management, and strategic innovation. He has led large initiatives across a broad spectrum of clients including state & federal government, transportation & logistics, financial services, and retail. He has in depth experience in solving complex business problems while taking advantage of new opportunities to achieve a client’s strategic goals and objectives.</p>
+                                            <p class="card-text">Allen has over 25 years of experience in technology
+                                                including software development, program management, and strategic
+                                                innovation. He has led large initiatives across a broad spectrum of
+                                                clients including state & federal government, transportation &
+                                                logistics, financial services, and retail. He has in depth experience in
+                                                solving complex business problems while taking advantage of new
+                                                opportunities to achieve a client’s strategic goals and objectives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="BILL WACHEL" src="./images/bill.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">BILL WACHEL</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Bill loves to solve tough business challenges,
+                                                leveraging process changes and technology. He works with clients to
+                                                better define strategic business problems and create a path to success.
+                                                Bill brings a depth of experience and knowledge gained from work as both
+                                                a CIO and consultant. He has partnered with peer executives and overall
+                                                organizational staff to enhance customer experiences, tap new markets,
+                                                and increase revenues in software as a service, healthcare, retail, oil
+                                                and gas, and other industries.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="JEFF ABERNATHY" src="./images/jeff.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">JEFF ABERNATHY</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">As an experienced consultant, Jeff brings over 30 years
+                                                of business experience in helping companies grow while managing their
+                                                bottom line. Jeff has a track record and passion for teaming with CEOs
+                                                and other leaders to achieve their vision. He has a demonstrated history
+                                                of delivering results in both large and small companies. He is a
+                                                strategically focused leader with significant management consulting,
+                                                information technology, operations, human resources, marketing,
+                                                compliance, and financial management experiences. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="JEFF BEIER" src="./images/beier.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">JEFF BEIER</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Jeff brings over 20 years of experience in helping
+                                                companies grow while managing the bottom line. He is a senior technology
+                                                leader with a proven record of delivering excellent operating results.
+                                                Jeff thinks cross-functionally while applying expertise gained from
+                                                small businesses to large global enterprises in marketing, wholesale,
+                                                retail, healthcare, product and e-Commerce environments. He is
+                                                passionate about delivering business value and quality customer
+                                                experiences and has a keen ability to create strong partnerships with
+                                                global stakeholders at all levels. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="JUSTIN WILSON" src="./images/justin.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">JUSTIN WILSON</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Justin has over 15 years of experience leading digital
+                                                transformation and customer engagement within the events, experiential
+                                                marketing, and financial services industries. His experience ranges from
+                                                event technology to data platforms, payment solutions to enterprise
+                                                collaboration systems, and customer portals. Justin is passionate about
+                                                the customer journey and product ideation, emphasizing a “Voice of
+                                                Customer” approach, delivering customer-focused technology solutions and
+                                                strategies that streamline processes and drive business growth.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="LISA JORDAN" src="./images/lisa.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">LISA JORDAN</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Lisa has over 30 years of experience working with
+                                                technology as a product manager, purchaser, project manager, and
+                                                advisor. She fills the space between business and technology and has
+                                                played this role in dozens of multi-year, international, custom
+                                                development and package integration projects. She believes processes are
+                                                a great tool for organizing technology initiatives. She has trained and
+                                                coached IT department resources in process documentation, design, and
+                                                improvement. Lisa is an advocate for women in technology and is an
+                                                active participant in DFW ATW and Ellevate Network.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="MIKE REEVES" src="./images/mike.jpeg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">MIKE REEVES</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Mike has over 20 years of experience in application
+                                                delivery and has been working on the Salesforce platform for more than 8
+                                                years. He has led projects involving the stand-up of several Salesforce
+                                                orgs, including custom integrations with websites, SAP and multiple
+                                                third-party applications. Mike has served as Salesforce ”product owner”
+                                                with multiple companies, supporting orgs with more than 1,400 users and
+                                                he currently manages Cyber Group’s Salesforce consulting practice. He is
+                                                a Certified Salesforce Administrator, ServiceCloud Consultant and Field
+                                                Service Lightning Consultant. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="MRUGANK DALAL" src="./images/mru.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">MRUGANK DALAL</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Mrugank brings over 12 years of software technology
+                                                consulting experience to the table. He has exceptionally governed
+                                                long-term projects from the Pawn industry to the Precious Metals Trading
+                                                & Home Security industries. He excels in marketing technologies &
+                                                provides automation solutions for customer retention, acquisition,
+                                                digital communication, customer satisfaction & social media marketing.
+                                                He holds his Salesforce Pardot Specialist Certification & has nailed
+                                                down the smart-shoring model of round-the-clock team collaboration. He
+                                                is a Rabbit & not a Lion and believes in running for life, not for
+                                                lunch. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="POOJA ARYA" src="./images/pooja.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">POOJA ARYA</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Pooja has an excellent record of success in helping
+                                                enterprise customers with analyzing, executing, and streamlining DevOps
+                                                practices. This involves not only helping them make the cultural shift
+                                                but also automating their processes with the right tools making “DevOps
+                                                a way to look forward”. She is a certified Salesforce Administrator and
+                                                a certified Salesforce Platform developer.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="PRATIK MALVIYA" src="./images/pr.jpeg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">PRATIK MALVIYA</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Pratik has over 13 years of technology experience. He
+                                                has a background in planning and managing cross-functional projects. He
+                                                is skilled at group facilitation and enjoys forging consensus among
+                                                people with diverging ideas and opinions. Pratik has managed a broad
+                                                array of projects in industries ranging from financial services, retail,
+                                                and energy to direct selling. As he has worked on Cyber Group’s India
+                                                and US teams, he has the advantage of understanding both worlds which
+                                                helps him manage global delivery teams.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="PURUSOTTAM KAUSHIK" src="./images/puru.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">PURUSOTTAM KAUSHIK</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text"> Kaushik has been with Cyber Group for the last 20
+                                                years. As an experienced team lead, he has worked on a wide range of
+                                                technology solutions like Microsoft, Java, PHP, and Salesforce. He has
+                                                experience in managing both product and project-oriented customers.
+                                                Kaushik has worked on various domains such as retail asset management,
+                                                healthcare supply change management, and retail energy. He currently
+                                                works as a Salesforce Certified Application Architect and is responsible
+                                                for delivering projects in a timely and efficient manner.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="RAHUL ARORA" src="./images/rahul.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">RAHUL ARORA</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Rahul is a technology consultant with over 15 years of
+                                                experience in application design and development. He specializes in
+                                                application integration and is passionate about solving business
+                                                problems. He is a big advocate of workflow automation and has
+                                                rearchitected multiple legacy applications to help businesses to grow.
+                                                He has an excellent track record of delivering quality solutions and
+                                                managing global development teams. Rahul is a certified AWS architect
+                                                and is currently helping our clients with their cloud migration strategy
+                                                and implementation.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card text-center">
+                                        <img class="img-fluid" alt="SEBASTIAN LABRADOR" src="./images/seb.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">SEBASTIAN LABRADOR</h4><br />
+                                            <h4 class="card-title">PRINCIPAL</h4>
+                                            <p class="card-text">Sebastian specializes in technology architecture and
+                                                evangelism. He brings 12 years of experience in building
+                                                high-performance teams who can deliver on infrastructure, applications,
+                                                and business solutions. Sebastian has successfully built a Site
+                                                Reliability Engineering practice, directed agile development teams, and
+                                                architected a new CMS solution using off-the-shelf products as well as
+                                                custom applications. You have our permission to use Sebastian on
+                                                workshopping, brainstorming and whiteboarding with your team to garner
+                                                new insights and disambiguate complexity.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -278,12 +510,16 @@
             <div class="container text-center py-5">
                 <h3 class="foot-title text-center" style="color: black;padding-bottom: 2%;">You Can Find Us At</h3>
                 <div class="d-flex justify-content-center mb-4">
-                    <a class="btn btn-light btn-social mr-2" href="https://twitter.com/cygrp" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/cybergroupinc/" target=_blank><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-light btn-social mr-2" href="https://www.youtube.com/c/cybergroup" target=_blank><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://twitter.com/cygrp" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/cybergroupinc/"
+                        target=_blank><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.youtube.com/c/cybergroup"
+                        target=_blank><i class="fab fa-youtube"></i></a>
                     <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/company/cybergroupinc/"
                         target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-light btn-social" href="https://www.instagram.com/cybergroupinc/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-light btn-social" href="https://www.instagram.com/cybergroupinc/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
                 <p class="m-0">&copy; 2021 | Cyber Group | All Rights Reserved</p>
             </div>

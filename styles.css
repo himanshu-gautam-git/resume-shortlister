@@ -1,0 +1,97 @@
+.btn {
+    background-color: #f58d1f;
+    color: #fff;
+}
+
+.hero {
+    background-image: url(./images/hero4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+span {
+    font-weight: bold;
+    color: #f58d1f;
+}
+
+.nav-item:hover {
+    border-bottom: 2px solid #f58d1f;
+}
+
+.nav-item a {
+    font-size: 110%;
+}
+
+footer p {
+    color:black;
+}
+.row{
+    padding:6% 10% 6% 10%;
+    align-items: center;
+    justify-content: center;
+}
+li
+{
+    list-style: none;
+    padding-bottom:4%;
+}
+.fa-chevron-circle-right
+{
+    color: #f58d1f;
+}
+.pad
+{
+    padding-bottom: 3%;
+}
+.card h4{
+  color: #f58d1f;
+}
+.card p
+{
+    font-size: 14px;
+    color: gray;
+}
+.card
+{
+   height:850px;
+}
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color:#f58d1f;
+    border-radius: 20px;
+}
+
+label {
+    color: #f58d1f;
+}
+
+.inp {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid #f58d1f;
+}
+.btn {
+    background-color: #f58d1f;
+    color: #fff;
+}
+.ceo
+{
+    background-color: #3a3a3a;
+    color: #f58d1f;
+    padding: 5%;
+    font-size: 50px;
+    font-family:"Shadows Into Light", Sans-serif;
+}
+.head
+{
+    color: #f58d1f;
+    padding-bottom: 5%;
+    font-size: 30px;
+}

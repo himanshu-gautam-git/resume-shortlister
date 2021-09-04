@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--cdn links starts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!--cdn links ends-->
+    <!--icon in title bar-->
+    <link rel="icon" href="images/relicon.png" type="image/gif">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--nav bar starts-->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <img src="./images/logoh.png" alt="Cyber Group" height="60px">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="./about.html" class="nav-item nav-link">About</a>
+                <a href="./product.html" class="nav-item nav-link">Product</a>
+                <a href="#edu" class="nav-item nav-link">Services</a>
+                <a href="./contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="contact.html" class="btn btn-menu d-none d-lg-block" style="color: #ffffff;">Work with Us</a>
+        </div>
+    </nav>
+    <!--nav bar ends-->
+    <!--contact me section starts-->
+    <div class="container-fluid" style="padding-top: 10%;">
+        <div class="container" style="padding-top: 3%;">
+            <div class="align-items-center justify-content-center">
+                <h1 class="text-center" style="color:#f58d1f">CONTACT US</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <!--form starts-->
+                    <form onsubmit="return false">
+                        <div class="form-row" style="padding-top: 1%;">
+                            <div class="form-col col-6">
+                                <label for="Name">Name*</label>
+                                <input id="iname" type="text" name="name" placeholder="Your Name" class="inp" required>
+                            </div>
+                            <div class="form-col col-6" style="padding-left:5%">
+                                <label for="Surname">Surname*</label>
+                                <input id="lname" type="text" name="name" placeholder="Your Surname" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 10%;">
+                            <div class="form-col col-6">
+                                <label for="Date of Birth">Date of Birth*</label>
+                                <input id="dob" type="date" name="dob" class="inp" required>
+                            </div>
+                            <div class="form-col col-6" style="padding-left:5%">
+                                <label for="Contact">Contact*</label><br />
+                                <input id="tel" type="tel" placeholder="Your Contact" name="contact" class="inp"
+                                    pattern="[0-9]{10}" required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 10%;">
+                            <div class="form-col col-12">
+                                <label for="Email">Email*</label>
+                                <input id="email" type="email" name="email" placeholder="Your Email" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 10%;">
+                            <div class="form-col col-12">
+                                <label for="Address">Address*</label>
+                                <input id="add" type="textarea" name="address" placeholder="Your Address" class="inp"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-row" style="padding-top: 10%;">
+                            <div class="form-col col-12">
+                                <label for="Comments">Message*</label>
+                                <textarea id="comm" name="address" placeholder="Enter your message" class="inp" rows="6"
+                                    cols="50" required></textarea>
+                            </div>
+                        </div>
+                        <div class="align-items-center justify-content-center"
+                            style="color:#f58d1f;padding-left:30%;padding-right: 30%;">
+                            <marquee scrolldelay=60>All fields marked with asterisk (*) are mandatory.</marquee>
+                        </div>
+                        <div class="form-row" style="padding-top: 10%;">
+                            <div class="form-col col-12 align-items-center" style="text-align: center;">
+                                <button type="submit" class="btn" style="border-radius:20px;width:150px;"
+                                    onclick="myFunction()">Submit</button>
+                                <input type="reset" class="btn" style="border-radius:20px;width:150px;">
+                            </div>
+                        </div>
+                    </form>
+                    <!--form ends-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col align-items-center justify-content-center text-center">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d857529.0904433661!2d-96.735432!3d32.905491!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c20f1d9166bfb%3A0xb7cbfcd1ba083d4e!2s12900%20Preston%20Rd%20%23900%2C%20Dallas%2C%20TX%2075230!5e0!3m2!1sen!2sus!4v1630768023870!5m2!1sen!2sus"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center align-items-center" style="padding-top:10%; padding-bottom: 10%;">
+                <div class="col-4"><span>Our Mailing Address</span><br />Cyber Group<br /> 12900 Preston Road, Ste
+                    900<br /> Dallas, TX, 75230</div>
+                <div class="col-4"><span>Telephone</span><br />+1 469.916.7730</div>
+                <div class="col-4"><span>E-mail</span><br />info@cygrp.com</div>
+            </div>
+        </div>
+    </div>
+    <!--contact me section ends-->
+    <!--footer starts-->
+    <footer class="bg-light">
+        <div class="container-fluid text-white">
+            <div class="container text-center py-5">
+                <h3 class="foot-title text-center" style="color: black;padding-bottom: 2%;">You Can Find Us At</h3>
+                <div class="d-flex justify-content-center mb-4">
+                    <a class="btn btn-light btn-social mr-2" href="https://twitter.com/cygrp" target="_blank"><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.facebook.com/cybergroupinc/"
+                        target=_blank><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.youtube.com/c/cybergroup"
+                        target=_blank><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/company/cybergroupinc/"
+                        target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-light btn-social" href="https://www.instagram.com/cybergroupinc/"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p class="m-0">&copy; 2021 | Cyber Group | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!--footer ends-->
+</body>
+
+</html>
